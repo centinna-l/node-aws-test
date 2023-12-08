@@ -6,5 +6,5 @@ app.listen(5001, () => {
 });
 
 app.get("/", (req, res) => {
-  return res.statusCode(200).json({ message: "AWS Api running" });
+  return res.json({ message: "AWS Api running" });
 });
